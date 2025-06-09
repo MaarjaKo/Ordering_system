@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.orders-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.orders-section h1 {
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table thead {
+  border-bottom: 1px solid #ccc;
+}
+
+.orders-table th,
+.orders-table td {
+  text-align: left;
+  padding: 14px 12px;
+  font-size: 14px;
+}
+
+.order-number {
+  color: orange;
+}
+
+.pdf-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.track-btn {
+  border: 1px solid #aaa;
+  background-color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+}
