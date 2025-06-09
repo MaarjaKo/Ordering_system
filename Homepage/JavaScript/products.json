@@ -1,0 +1,18 @@
+[
+  {
+    "id": "762252",
+    "name": "Juuksehooldusvahend",
+    "volume": "250ml",
+    "priceEx": 4.0,
+    "priceInc": 4.96,
+    "image": "../images/product1.png"
+  },
+  {
+    "id": "762256",
+    "name": "N\u00e4okreem",
+    "volume": "50ml",
+    "priceEx": 8.2,
+    "priceInc": 10.17,
+    "image": "../images/product2.png"
+  }
+]
