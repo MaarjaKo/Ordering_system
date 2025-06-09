@@ -5,9 +5,9 @@
     </div>
     <ul class="dropdown-menu">
       <li><a href="../HTML/tellimus.php">Tellimine</a></li>
-      <li><a href="#">Minu tellimused</a></li>
-      <li><a href="#">Ostukorv</a></li>
-      <li><a href="#">Logi välja</a></li>
+      <li><a href="../HTML/orders.html">Minu tellimused</a></li>
+      <li><a href="../HTML/cart.html">Ostukorv</a></li>
+      <li><a href="../HTML/log-in.html">Logi välja</a></li>
     </ul>
   </div>
 
