@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-color: #fff;
-   display: flex;
+  display: flex;
   justify-content: center;
   align-items: flex-start;
   min-height: 100vh;
@@ -12,8 +12,7 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;  
-  max-width: 1000px;
+  width: clamp(320px, 90%, 1000px);
   margin-top: 125px;
   border-radius: 16px;
   overflow: hidden;
@@ -23,20 +22,19 @@ body {
 .login-form {
   background-color: #e9d3bd;
   flex: 1;
-  padding: 40px;
+  padding: clamp(20px, 5vw, 40px);
 }
 
 .login-form .logo {
-  width: 80px;
+  width: clamp(40px, 8vw, 80px);
   margin-bottom: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .login-form h2 {
-  font-size: 40px;
+  font-size: clamp(24px, 5vw, 40px);
   margin-bottom: 10px;
   color: #000;
   line-height: normal;
@@ -49,7 +47,6 @@ body {
   color: #000;
   text-align: center;
 }
-
 
 .login-form a {
   color: #888;
@@ -65,18 +62,18 @@ body {
 label {
   display: block;
   margin-bottom: 6px;
-  font-size: 14px;
+  font-size: clamp(12px, 1.5vw, 14px);
   color: #333;
 }
 
 input[type="email"],
 input[type="password"] {
   width: 100%;
-  padding: 12px;
+  padding: clamp(8px, 1.5vw, 12px);
   margin-bottom: 10px;
   border-radius: 8px;
   border: none;
-  font-size: 14px;
+  font-size: clamp(12px, 1.8vw, 14px);
 }
 
 .password-wrapper {
@@ -92,7 +89,7 @@ input[type="password"] {
 }
 
 .helper-link {
-  font-size: 12px;
+  font-size: clamp(10px, 1.2vw, 12px);
   color: #888;
   float: right;
   margin: 0px;
@@ -110,11 +107,10 @@ input[type="password"] {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 13px;
+  font-size: clamp(10px, 1.2vw, 13px);
   color: #888;
   margin-bottom: 30px;
 }
-
 
 .options label {
   display: flex;
@@ -129,7 +125,8 @@ input[type="password"] {
   width: 16px;
   height: 16px;
   border: 1px solid #888;
-  background-color: transparent;/ cursor: pointer;
+  background-color: transparent; 
+  cursor: pointer;
   position: relative;
 }
 
@@ -149,18 +146,16 @@ input[type="password"] {
   transform: rotate(45deg);
 }
 
-
-
 .login-btn {
   background-color: #fbc02d;
   color: #000;
   font-weight: bold;
   border: none;
-  padding: 14px;
+  padding: clamp(10px, 2vw, 14px);
   width: 100%;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: clamp(14px, 3vw, 16px);
 }
 
 .login-image {
