@@ -51,6 +51,11 @@ body {
   color: orange;
 }
 
+.orders-table td.order-number {
+  color: orange;
+  text-align: center;
+}
+
 .pdf-btn {
   background-color: black;
   color: white;
