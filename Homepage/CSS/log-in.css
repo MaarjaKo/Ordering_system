@@ -10,7 +10,7 @@ body {
   margin: 40px auto;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 .login-form {
@@ -22,22 +22,37 @@ body {
 .login-form .logo {
   width: 80px;
   margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .login-form h2 {
-  font-size: 28px;
+  font-size: 40px;
   margin-bottom: 10px;
   color: #000;
+  line-height: normal;
+  font-weight: 400;
+  text-align: center;
 }
 
 .login-form p {
   margin-bottom: 30px;
   color: #000;
+  text-align: center;
 }
 
+
 .login-form a {
-  color: #4a00e0;
-  text-decoration: none;
+  color: #888;
+  text-decoration: underline;
+}
+
+.login-form a:visited,
+.login-form a:active {
+  color: #0E0AFF;
+  text-decoration: underline;
 }
 
 label {
@@ -71,10 +86,17 @@ input[type="password"] {
 
 .helper-link {
   font-size: 12px;
-  color: #777;
+  color: #888;
   float: right;
-  margin-top: -20px;
-  margin-bottom: 20px;
+  margin: 0px;
+}
+
+.helper-row {
+  text-align: right;
+  margin-top: 0;
+  /* no extra top margin, hugs input */
+  margin-bottom: 12px;
+  /* keep some space below helper text */
 }
 
 .options {
@@ -82,9 +104,45 @@ input[type="password"] {
   justify-content: space-between;
   align-items: center;
   font-size: 13px;
-  color: #555;
+  color: #888;
   margin-bottom: 30px;
 }
+
+
+.options label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #888;
+  text-decoration: none;
+}
+
+.options input[type="checkbox"] {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #888;
+  background-color: transparent;/ cursor: pointer;
+  position: relative;
+}
+
+.options input[type="checkbox"]:checked {
+  background-color: transparent;
+}
+
+.options input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 4px;
+  height: 8px;
+  border: solid #888;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
 
 .login-btn {
   background-color: #fbc02d;
