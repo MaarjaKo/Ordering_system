@@ -87,26 +87,28 @@ input[type="password"] {
   right: 12px;
   color: #888;
   cursor: pointer;
+  font-size: clamp(14px, 1.5vw, 20px);
 }
 
 .helper-link {
   font-size: clamp(10px, 1.2vw, 12px);
   color: #888;
   float: right;
+  white-space: nowrap;
   margin: 0px;
 }
 
 .helper-row {
   text-align: right;
   margin-top: 0;
-   margin-bottom: 12px;
-  }
+  margin-bottom: 12px;
+}
 
 .options {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  font-size: clamp(10px, 1.2vw, 13px);
+  align-items: baseline;
+  font-size: clamp(14px, 1.2vw, 16px);
   color: #888;
   margin-bottom: 30px;
 }
@@ -121,13 +123,16 @@ input[type="password"] {
 
 .options input[type="checkbox"] {
   appearance: none;
+  width: clamp(16px, 1.5vw, 20px);
+  height: clamp(16px, 1.5vw, 20px);
   width: 16px;
   height: 16px;
   border: 1px solid #888;
-  background-color: transparent; 
+  background-color: transparent;
   cursor: pointer;
   position: relative;
-}
+  flex-shrink: 0;   
+  }
 
 .options input[type="checkbox"]:checked {
   background-color: transparent;
