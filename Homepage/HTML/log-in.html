@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="et">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Logi sisse</title>
   <link rel="stylesheet" href="../CSS/log-in.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
   <div class="login-container">
     <div class="login-form">
-      <img src="logo.svg" alt="Logo" class="logo">
+      <img src="../images/logo.svg" alt="Logo" class="logo">
       <h2>Logi sisse</h2>
       <p>või <a href="#">loo konto siin!</a></p>
 
       <form>
         <label for="email">E-mail</label>
         <input type="email" id="email" required>
-        <a href="#" class="helper-link">Unustasid e-maili?</a>
+
+        <div class="helper-row">
+          <a href="#" class="helper-link">Unustasid e-maili?</a>
+        </div>
+
 
         <label for="password">Parool</label>
         <div class="password-wrapper">
@@ -34,8 +40,9 @@
       </form>
     </div>
     <div class="login-image">
-      <img src="login-photo.png" alt="Toote pilt">
+      <img src="../images/login.png" alt="Toote pilt">
     </div>
   </div>
 </body>
+
 </html>
