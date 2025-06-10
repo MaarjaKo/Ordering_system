@@ -21,7 +21,7 @@ body {
 }
 
 .login-form {
-  background-color: #e9d3bd;
+  background-color: rgba(231, 216, 201, 1);
   flex: 1;
   padding: clamp(20px, 5vw, 40px);
 }
@@ -99,10 +99,8 @@ input[type="password"] {
 .helper-row {
   text-align: right;
   margin-top: 0;
-  /* no extra top margin, hugs input */
-  margin-bottom: 12px;
-  /* keep some space below helper text */
-}
+   margin-bottom: 12px;
+  }
 
 .options {
   display: flex;
