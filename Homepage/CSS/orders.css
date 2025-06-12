@@ -1,0 +1,74 @@
+body {
+  margin-left: auto;
+  margin-right: auto;
+  width: clamp(320px, 90%, 1000px);
+  margin-bottom: 125px;
+  border-radius: 16px;
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #000;
+}
+
+.orders-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.orders-section h1 {
+  margin-bottom: 30px;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  line-height: normal;
+  font-weight: 400;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.orders-table {
+  width: 100%;
+  min-width: 600px;
+  border-collapse: collapse;
+}
+
+.orders-table thead {
+  border-bottom: 1px solid #ccc;
+}
+
+.orders-table th,
+.orders-table td {
+  text-align: left;
+  padding: 14px 12px;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+  font-weight: 400;
+}
+
+.order-number {
+  color: orange;
+}
+
+.orders-table td.order-number {
+  color: orange;
+  text-align: center;
+}
+
+.pdf-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+.track-btn {
+  border: 1px solid #aaa;
+  background-color: white;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
