@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       $_SESSION['email'] = $kasutaja['email'];
 
       // ✅ Suuna pealehele
-      header("Location: ../HTML/index.php");
+      header("Location: ../");
       exit;
     } else {
       $_SESSION['error'] = "Vale parool.";

@@ -4,15 +4,15 @@
       <i class="fas fa-bars"></i>
     </div>
     <ul class="dropdown-menu">
-      <li><a href="../HTML/tellimus.php">Tellimine</a></li>
-      <li><a href="../HTML/orders.php">Minu tellimused</a></li>
-      <li><a href="../HTML/cart.php">Ostukorv</a></li>
-      <li><a href="../HTML/log-in.php">Logi välja</a></li>
+      <li><a href="/Ordering_system/Homepage/HTML/tellimus.php">Tellimine</a></li>
+      <li><a href="/Ordering_system/Homepage/HTML/orders.php">Minu tellimused</a></li>
+      <li><a href="/Ordering_system/Homepage/HTML/cart.php">Ostukorv</a></li>
+      <li><a href="/Ordering_system/Homepage/HTML/log-in.php">Logi välja</a></li>
     </ul>
   </div>
 
-  <a href="../HTML/index.php" aria-label="Pealeht">
-    <img src="../images/logo.svg" alt="Ettevõtte logo" style="height: 30px;" /></i>
+  <a href="/Ordering_system/Homepage/" aria-label="Pealeht">
+    <img src="/Ordering_system/Homepage/images/logo.svg" alt="Ettevõtte logo" style="height: 30px;" /></i>
   </a>
 
   <div class="icons">
@@ -30,10 +30,10 @@
         <p>Toode: Näidis toode</p>
         <p>Kogus: 2 tk</p>
         <p>Summa: €38.00</p>
-        <button onclick="window.location.href='../HTML/cart.php'">Mine maksma</button>
+        <button onclick="window.location.href='/Ordering_system/Homepage/HTML/cart.php'">Mine maksma</button>
       </div>
     </span>
-    <a href="../HTML/account.php" aria-label="Konto">
+    <a href="/Ordering_system/Homepage/HTML/account.php" aria-label="Konto">
       <i class="fas fa-user" aria-hidden="true"></i>
     </a>
     <span id="cart-summary">€ 0.00 | 0 toodet</span>
