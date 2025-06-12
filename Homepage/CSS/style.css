@@ -132,7 +132,9 @@ footer {
   font-weight: 500;
 }
 .main-container {
-  padding: 40px 10%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 h1 {

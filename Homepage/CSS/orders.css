@@ -1,5 +1,5 @@
 .orders-section {
-  max-width: 1000px;
+  width: 100%;
   margin: 40px auto;
   padding: 0 20px;
   background-color: #fff;
@@ -66,3 +66,4 @@
   border-radius: 8px;
   font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
+
