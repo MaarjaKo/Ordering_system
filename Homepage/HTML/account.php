@@ -12,12 +12,23 @@
 <body>
   <?php include '../PHP/partials/header.php'; ?>
 
-  <h1>Minu tellimused</h1>
+  <div class="main-container">
+    <main class="orders-section">
+      <div class="account-container">
+        <h1>Minu konto</h1>
+        <ul class="account-links">
+          <li><a href="account.php">Minu konto</a></li>
+          <li><a href="orders.php">Tellimused</a></li>
+          <li><a href="#">Aadress</a></li>
+          <li><a href="#">Konto andmed</a></li>
+        </ul>
+      </div>
 
+    </main>
+  </div>
 
   <?php include '../PHP/partials/footer.php'; ?>
   <script src="../JavaScript/main.js"></script>
-
 </body>
 
 </html>
