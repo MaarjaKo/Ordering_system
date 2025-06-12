@@ -15,7 +15,7 @@
   <div class="main-container">
     <main class="orders-section">
       <div class="account-container">
-        <h1>Minu konto</h1>
+        <h1 style=font-weight:normal;>Minu konto</h1>
         <ul class="account-links">
           <li><a href="account.php">Minu konto</a></li>
           <li><a href="orders.php">Tellimused</a></li>

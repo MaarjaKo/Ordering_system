@@ -60,7 +60,7 @@
         <span>Kokku</span><span>€ 130.04</span>
       </div>
 
-      <button type="button" class="pay-btn">MINE MAKSMА</button>
+      <button type="button" class="pay-btn">SAADA TELLIMUS</button>
     </section>
   </main>
 

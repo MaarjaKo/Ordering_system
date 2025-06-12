@@ -432,8 +432,8 @@ h1 {
 
 .account-container {
   max-width: 600px;
-  margin: 60px auto;
-  padding: 30px;
+  margin: 10px auto;
+  padding: 5px;
   border-radius: 16px;
   text-align: center;
 }
