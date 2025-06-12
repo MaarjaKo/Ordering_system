@@ -46,7 +46,7 @@
   </main>
 
   <?php include '../PHP/partials/footer.php'; ?>
-  <script src="../JavaScript/scroll.js"></script>
+  <script src="../JavaScript/main.js"></script>
 </body>
 
 </html>

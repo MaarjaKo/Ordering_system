@@ -65,7 +65,9 @@ body {
 }
 
 .cart-item-remove {
-  margin-left: 10px;
+  background: none;
+  border: none;
+  color: #c00;
   font-size: 18px;
   cursor: pointer;
 }

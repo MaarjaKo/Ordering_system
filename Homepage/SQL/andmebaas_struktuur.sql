@@ -10,15 +10,12 @@ CREATE TABLE kliendid (
   ettevote VARCHAR(100),
   reg_nr VARCHAR(20),
   kmkr_nr VARCHAR(20),
-  tanav VARCHAR(100),
-  maja_nr VARCHAR(10),
-  korter_nr VARCHAR(10),
-  linn VARCHAR(50),
+  aadress_et VARCHAR(150),
+  aadress_tarne VARCHAR(150),
   postiindeks VARCHAR(10),
   maakond VARCHAR(50),
-  konto_tuup VARCHAR(20),
-  is_admin BOOLEAN DEFAULT 0,
-  aktiivne BOOLEAN DEFAULT 1,
+  noustunud BOOLEAN DEFAULT 0,
+  uudiskiri BOOLEAN DEFAULT 0,
   date_created DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
